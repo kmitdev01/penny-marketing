@@ -8,6 +8,13 @@ export const Wrapper = styled.div`
 export const TextSection = styled.div`
     width: 100%
 `
+export const Text = styled.p`
+    // font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 33px;
+    line-height: 39px;
+`
 export const Title = styled.p`
     // font-family: Gotham Rounded;
     font-size: 57px;
