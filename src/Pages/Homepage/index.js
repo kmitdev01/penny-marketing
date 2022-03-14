@@ -14,7 +14,7 @@ const HomePage = () => {
                         <Text>Create Digital Savings Jar for your Spare Change</Text>
                     </TextSection>
                     <ImageSection>
-                        <img src='static/icons/hero1.svg' />
+                        {/* <img src='static/icons/hero1.svg' /> */}
                     </ImageSection>
                 </Wrapper>
             </Container>
