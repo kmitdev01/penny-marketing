@@ -1,12 +1,26 @@
 import styled from 'styled-components'
-
-export const Wrapper = styled.div`
-    // background: #E5E5E5;
+export const HoleWrapper = styled.div`
+`
+export const HeroSection = styled.div`
     display: flex;
+    margin: 30px 0px;
     // background-image: Url(./static/icons/hero1.svg);
 `
+export const SubTitle = styled.p`
+    // font-family: Gotham Rounded;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #454545;
+
+`
 export const TextSection = styled.div`
-    width: 100%
+    width: 100%;
+    align-self: center;
+
 `
 export const Text = styled.p`
     // font-family: 'Roboto';
@@ -14,9 +28,9 @@ export const Text = styled.p`
     font-weight: 300;
     font-size: 33px;
     line-height: 39px;
+    text-align: left;
 `
 export const Title = styled.p`
-    // font-family: Gotham Rounded;
     font-size: 57px;
     font-style: normal;
     font-weight: 700;
@@ -27,9 +41,16 @@ export const Title = styled.p`
 `
 export const ImageSection = styled.div`
     width: 100%;
+    align-self: center;
     max-width: 100%;
     img{
         width: 100%;
+    }
+`
+
+export const VideoPlay = styled.div`
+    img{
+        width: 60%;
     }
 `
 

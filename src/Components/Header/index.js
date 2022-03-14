@@ -1,6 +1,7 @@
 import React from 'react';
-import { Collapse, Container, DropdownItem, DropdownMenu, DropdownToggle, Nav, Navbar, NavbarBrand, NavbarText, NavbarToggler, NavItem, NavLink, UncontrolledDropdown } from 'reactstrap';
-import { Wrapper } from './style';
+import { Button, ButtonGroup, Collapse, Nav, Navbar, NavbarBrand, NavbarText, NavbarToggler, NavItem, NavLink } from 'reactstrap';
+import SearchBar from '../SearchBar';
+import { LoginButton, Wrapper } from './style';
 
 const Header = () => {
     return (
@@ -13,7 +14,7 @@ const Header = () => {
                             light
                         >
                             <NavbarBrand href="/">
-                                <img  src="static/icons/logo.svg" />
+                                <img  src="static/images/logo.svg" />
                             </NavbarBrand>
                             <NavbarToggler onClick={function noRefCheck() { }} />
                             <Collapse navbar>
@@ -67,9 +68,13 @@ const Header = () => {
                                         </NavLink>
                                     </NavItem>
                                 </Nav>
-                                <NavbarText>
-                                Get Started
-                                </NavbarText>
+                                <SearchBar />
+                                <ButtonGroup>
+                                    <LoginButton>Log In</LoginButton>
+                                    <LoginButton>Get Started</LoginButton>
+                                </ButtonGroup>
+                               
+                              
                             </Collapse>
                         </Navbar>
                     </div>

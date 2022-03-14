@@ -1,11 +1,16 @@
 import React from 'react';
+import { Wrapper } from './style';
 
-const Index = () => {
+const Footer = () => {
     return (
         <div>
-            footer
+            <Wrapper>
+                    <div>
+                       Footer
+                    </div>
+            </Wrapper>
         </div>
     );
 }
 
-export default Index;
+export default Footer;
