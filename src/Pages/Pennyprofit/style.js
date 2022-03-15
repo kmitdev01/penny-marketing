@@ -93,10 +93,4 @@ export const SavingWrap= styled.div`
    width: 100%;
    background: #fff;
 `
-export const Wrap= styled.div`
-   width: 100%;
-   padding:30px 0px;
-   display: flex;
-   align-items:center;
-   justify-content:center;
-`
+

@@ -13,7 +13,6 @@ import {
     BottomWrap,
     SubHeading,
     SavingWrap,
-    Wrap,
     Border,
     ImgWrap,
 } from './style';
@@ -63,10 +62,8 @@ const PennyProfit = () => {
                 </InnerWrap>
             </Container>
             <SavingWrap>
-                    <Wrap>
-                        <FreeMonth/>
-                    </Wrap>
-                </SavingWrap>
+                <FreeMonth />
+            </SavingWrap>
         </Wrapper>
     );
 };

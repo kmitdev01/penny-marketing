@@ -1,6 +1,7 @@
 import React from 'react';
 import SecondaryButton from '../buttons/component/SecondaryButton/secondaryBtn/secondaryBtn';
 import {
+    FullWrapper,
     Wrapper,
     Imgbox,
     Heading,
@@ -11,6 +12,7 @@ import {
 } from './styles';
 const FreeMonth = () => {
     return (
+        <FullWrapper>
         <Wrapper>
             <Imgbox>
                 <img src="./static/images/pig.svg" alt="pig" />
@@ -26,6 +28,7 @@ const FreeMonth = () => {
                 </ButtonWrap>
             </InnerWrap>
         </Wrapper>
+        </FullWrapper>
     );
 };
 

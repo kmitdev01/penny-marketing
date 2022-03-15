@@ -1,8 +1,16 @@
 import styled from 'styled-components';
+export const FullWrapper = styled.div`
+     width:100%;
+     background: #fff;
+     padding:40px 0px;
+     display: flex;
+     align-items:center;
+     justify-content:center;
+`
 export const Wrapper = styled.div`
      display:flex;
      align-items:center;
-     background: #fff;
+    
      width:  50%;
      @media only screen and (max-width:1400px){
         width:  80%;
@@ -16,12 +24,15 @@ export const Imgbox = styled.div`
    margin-right:79px;
     @media only screen and (max-width: 1024px){
         width:  100%;
-        margin: auto;
         margin-right: 0px;
         margin-bottom: 15px;
     }
    img{ 
       max-width:100%;
+      @media only screen and (max-width: 1024px){
+        display:block;
+        margin:auto;
+    }
    } 
 `
 export const Heading = styled.h6`
