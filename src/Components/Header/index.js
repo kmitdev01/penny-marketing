@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, ButtonGroup, Collapse, Nav, Navbar, NavbarBrand, NavbarText, NavbarToggler, NavItem, NavLink } from 'reactstrap';
+import PrimaryButton from '../buttons/component/PrimaryButton';
 import SearchBar from '../SearchBar';
 import { LoginButton, Wrapper } from './style';
 
@@ -70,7 +71,8 @@ const Header = () => {
                                 </Nav>
                                 <SearchBar />
                                 <ButtonGroup>
-                                    <LoginButton>Log In</LoginButton>
+                                    <PrimaryButton />
+                                    {/* <LoginButton>Log In</LoginButton> */}
                                     <LoginButton>Get Started</LoginButton>
                                 </ButtonGroup>
                                

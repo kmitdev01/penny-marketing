@@ -3,7 +3,8 @@ import { Container } from 'reactstrap';
 import Footer from '../../Components/Footer';
 import FreeMonth from '../../Components/FreeMonth';
 import Header from '../../Components/Header';
-import { HoleWrapper, ImageSection, Text, TextSection, Title, HeroSection, SubTitle, VideoPlay } from './style';
+import { Border } from '../Pennyprofit/style';
+import { HoleWrapper, ImageSection, Text, TextSection, Title, HeroSection, SubTitle, VideoPlay, MonthWrap } from './style';
 
 const HomePage = () => {
     return (
@@ -14,8 +15,10 @@ const HomePage = () => {
                     <HeroSection>
                         <TextSection>
                             <Title>SAVE YOUR SPARE CHANGE FOR MORE THAN JUST A RAINNY DAY</Title>
+                            <Border />
                             <Text>Create Digital Savings Jar for your Spare Change</Text>
                         </TextSection>
+                        
                         <ImageSection>
                             <img src='static/images/hero1.svg' />
                         </ImageSection>
@@ -33,7 +36,9 @@ const HomePage = () => {
                     <VideoPlay>
                         <img src='static/images/hero3.png' />
                     </VideoPlay>
-                    <FreeMonth />
+                    <MonthWrap>
+                        <FreeMonth />
+                    </MonthWrap>
                     
                 </Container>
                 {/* <Footer /> */}

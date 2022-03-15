@@ -29,6 +29,8 @@ export const Text = styled.p`
     font-size: 33px;
     line-height: 39px;
     text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
 `
 export const Title = styled.p`
     font-size: 57px;
@@ -52,5 +54,10 @@ export const VideoPlay = styled.div`
     img{
         width: 60%;
     }
+`
+export const MonthWrap = styled.div`
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
 `
 
