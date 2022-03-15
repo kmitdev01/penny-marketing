@@ -1,40 +1,52 @@
-.App {
-  text-align: center;
+body{
+  font-family: "GothamRounded";
+  box-sizing: border-box;
+  padding: 0;
+}
+@font-face {
+  font-family: "GothamRounded";
+  src: url("../public/static/fonts/gotham-rounded/GothamRounded-Bold.otf");
+  font-weight: 300;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "GothamRounded";
+  src: url("../public/static/fonts/gotham-rounded/GothamRounded-BoldItalic.otf");
+  font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "GothamRounded";
+  src: url("../public/static/fonts/gotham-rounded/GothamRounded-BoldItalic.otf");
+  font-weight: 500;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: "GothamRounded";
+  src: url("../public/static/fonts/gotham-rounded/GothamRounded-BookItalic.otf");
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: "GothamRounded";
+  src: url("../public/static/fonts/gotham-rounded/GothamRounded-Light.otf");
+  font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: "GothamRounded";
+  src: url("../public/static/fonts/gotham-rounded/GothamRounded-LightItalic.otf");
+  font-weight: 800;
 }
 
+@font-face {
+  font-family: "GothamRounded";
+  src: url("../public/static/fonts/gotham-rounded/GothamRounded-Medium.otf");
+  font-weight: 700;
+}
 
+@font-face {
+  font-family: "GothamRounded";
+  src: url("../public/static/fonts/gotham-rounded/GothamRounded-MediumItalic.otf");
+  font-weight: 800;
+}

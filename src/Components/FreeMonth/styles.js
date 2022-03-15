@@ -4,6 +4,9 @@ export const Wrapper = styled.div`
      align-items:center;
      background: #fff;
      width:  50%;
+     @media only screen and (max-width:1400px){
+        width:  80%;
+     }
      @media only screen and (max-width: 1024px){
         flex-wrap: wrap;
         width:  100%;
@@ -22,7 +25,7 @@ export const Imgbox = styled.div`
    } 
 `
 export const Heading = styled.h6`
-    font-family: 'Gotham Rounded';
+    font-family: 'GothamRounded';
     font-style: normal;
     font-weight: 700;
     font-size: 54px;

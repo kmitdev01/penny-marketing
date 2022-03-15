@@ -16,7 +16,7 @@ export const ContentWrap = styled.div`
     width: 100%;
 `
 export const Heading = styled.h6`
-    font-family: 'Gotham Rounded';
+    font-family: 'GothamRounded';
     font-style: normal;
     font-weight: 700;
     font-size: 56px;

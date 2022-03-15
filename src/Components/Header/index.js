@@ -71,9 +71,9 @@ const Header = () => {
                                 </Nav>
                                 <SearchBar />
                                 <ButtonGroup>
-                                    <PrimaryButton />
+                                    <PrimaryButton title={'LogIn'}/>
                                     {/* <LoginButton>Log In</LoginButton> */}
-                                    <LoginButton>Get Started</LoginButton>
+                                    <PrimaryButton title={'GetStarted'}/>
                                 </ButtonGroup>
                                
                               

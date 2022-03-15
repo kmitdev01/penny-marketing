@@ -7,7 +7,7 @@ export const HeroSection = styled.div`
     // background-image: Url(./static/icons/hero1.svg);
 `
 export const SubTitle = styled.p`
-    // font-family: Gotham Rounded;
+    font-family: GothamRounded;
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
@@ -23,7 +23,7 @@ export const TextSection = styled.div`
 
 `
 export const Text = styled.p`
-    // font-family: 'Roboto';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     font-size: 33px;
@@ -33,6 +33,7 @@ export const Text = styled.p`
     margin-bottom: 10px;
 `
 export const Title = styled.p`
+    font-family: GothamRounded;
     font-size: 57px;
     font-style: normal;
     font-weight: 700;
@@ -40,6 +41,7 @@ export const Title = styled.p`
     letter-spacing: 0em;
     text-align: left;
     color:#454545;
+    
 `
 export const ImageSection = styled.div`
     width: 100%;
