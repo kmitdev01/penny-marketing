@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'reactstrap';
 import Footer from '../../Components/Footer';
+import FreeMonth from '../../Components/FreeMonth';
 import Header from '../../Components/Header';
 import { HoleWrapper, ImageSection, Text, TextSection, Title, HeroSection, SubTitle, VideoPlay } from './style';
 
@@ -32,7 +33,7 @@ const HomePage = () => {
                     <VideoPlay>
                         <img src='static/images/hero3.png' />
                     </VideoPlay>
-                    
+                    <FreeMonth />
                     
                 </Container>
                 {/* <Footer /> */}
