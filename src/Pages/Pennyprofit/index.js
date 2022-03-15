@@ -15,7 +15,7 @@ import {
     SavingWrap,
     Wrap,
     Border,
-    ImgWrap
+    ImgWrap,
 } from './style';
 const PennyProfit = () => {
     return (

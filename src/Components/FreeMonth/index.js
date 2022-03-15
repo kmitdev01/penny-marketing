@@ -5,7 +5,9 @@ import {
     Imgbox,
     Heading,
     Text,
-    TrialText
+    TrialText,
+    InnerWrap,
+    ButtonWrap,
 } from './styles';
 const FreeMonth = () => {
     return (
@@ -13,14 +15,16 @@ const FreeMonth = () => {
             <Imgbox>
                 <img src="./static/images/pig.svg" alt="pig" />
             </Imgbox>
-            <div>
+            <InnerWrap>
                 <Heading>Don't Have <br></br>PennyProfit?</Heading>
                 <Text>
                     Get Started Now And Begin Saving
                 </Text>
                 <TrialText>Try It Free For 1 Month!</TrialText>
-                <SecondaryButton title={'Get Started'} style={{width:'201px'}}/>
-            </div>
+                <ButtonWrap>
+                    <SecondaryButton title={'Get Started'} style={{ width: '201px' }} />
+                </ButtonWrap>
+            </InnerWrap>
         </Wrapper>
     );
 };

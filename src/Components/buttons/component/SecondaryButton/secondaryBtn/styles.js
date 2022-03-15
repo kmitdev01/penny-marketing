@@ -1,12 +1,11 @@
 import styled from 'styled-components';
-
 export const Button = styled.div`
     display:flex;
     align-items:center;
-    background: #FDB016;
+    background:  #FDB016;
     width:100%;
-    padding: 0px 24px;
-    color: #ffffff;
+    padding: 1px 24px;
+    color: #fff;
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
