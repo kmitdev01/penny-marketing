@@ -4,6 +4,9 @@ export const Wrapper = styled.div`
      align-items:center;
      background: #fff;
      width:  50%;
+     @media only screen and (max-width: 1400px){
+        width:  80%;
+    }
      @media only screen and (max-width: 1024px){
         flex-wrap: wrap;
         width:  100%;

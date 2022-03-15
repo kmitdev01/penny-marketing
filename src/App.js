@@ -6,6 +6,7 @@ import {
   Route,
 } from "react-router-dom";
 import PennyProfit from './Pages/Pennyprofit';
+import MyMoney from './Pages/MyMoney';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route>
             <Route path="/home" element={<HomePage />} ></Route>
             <Route path="/pennyprofit" element={<PennyProfit />} ></Route>
+            <Route path="/mymoney" element={<MyMoney />} ></Route>
           </Route>
         </Routes>
       </BrowserRouter>
