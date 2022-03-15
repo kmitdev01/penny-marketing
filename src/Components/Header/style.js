@@ -6,10 +6,12 @@ export const Wrapper = styled.div`
         height: 73px;
         width: 83px;
     }
+    font-size: 15px;
+
 `
-export const NavLink = styled.link`
+export const NavItem = styled.li`
     font-family: Avenir Next LT Pro;
-    font-size: 16px;
+    font-size: 10px !important;
     font-style: normal;
     font-weight: 400;
     line-height: 19px;

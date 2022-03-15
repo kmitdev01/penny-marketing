@@ -50,16 +50,25 @@ export const ImageSection = styled.div`
     img{
         width: 100%;
     }
+    &.mobile-sec{
+        padding: 50px;
+    }
 `
 
 export const VideoPlay = styled.div`
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
     img{
         width: 60%;
+        cursor: pointer;
     }
 `
 export const MonthWrap = styled.div`
     display: flex;
     justify-content: center;
-    margin: 10px 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 `
 

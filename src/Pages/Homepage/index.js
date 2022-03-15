@@ -24,8 +24,8 @@ const HomePage = () => {
                         </ImageSection>
                     </HeroSection>
                     <HeroSection>
-                        <ImageSection>
-                            <img style={{width: '60%'}} src='static/images/hero2.png' />
+                        <ImageSection className='mobile-sec'>
+                            <img  src='static/images/mobile.png' />
                         </ImageSection>
                         <TextSection>
                             <SubTitle>Spare change saving when you don’t use cash</SubTitle>
@@ -41,7 +41,7 @@ const HomePage = () => {
                     </MonthWrap>
                     
                 </Container>
-                {/* <Footer /> */}
+                <Footer />
             </HoleWrapper>
         </div>
     );

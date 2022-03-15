@@ -10,7 +10,7 @@ const Header = () => {
             <Wrapper>
                     <div>
                         <Navbar
-                            color="light"
+                            color="white"
                             expand="md"
                             light
                         >

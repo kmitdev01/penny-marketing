@@ -8,8 +8,8 @@ export const Button = styled.div`
     padding: 0px 24px;
     color: #ffffff;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 17px;
+    line-height: 20px;
     height:48px;
     border-radius:84.5px;
     text-transform: capitalize;
