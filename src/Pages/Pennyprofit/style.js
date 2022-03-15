@@ -1,17 +1,17 @@
 import styled from 'styled-components';
-import { space ,fontSizes ,colors } from '../../constants/theme';
+import { space ,fontSizes ,colors ,fullWidth } from '../../constants/theme';
 export const Wrapper = styled.div`
    background-image: ${colors.background};
 `
 export const InnerWrap = styled.div`
-  padding:${space[10] * 2}px;
+  padding:${space[10] * 2}px 0px;
 `
 export const Section = styled.div`
    display:flex;
    align-items:center;
 `
 export const ContentWrap = styled.div`
-
+    width: ${fullWidth};
 `
 export const Heading = styled.h6`
     font-family: 'Gotham Rounded';
@@ -22,13 +22,15 @@ export const Heading = styled.h6`
     text-transform: uppercase;
     color: ${colors.text};
     text-align:left;
-    width:42%;
-    border-bottom 2.4px solid ${colors.primary};
+`
+export const Border = styled.div`
+   border-bottom 2.4px solid ${colors.primary};
+   width: 417px;
 `
 export const BottomWrap = styled.div`
    display:flex;
    align-items:center;
-   padding:${space[10] * 2}px 0px;
+   padding:${space[10] + 47}px 0px;
    img{
        margin-right: ${space[6]}px;
    }
@@ -54,9 +56,12 @@ export const Text = styled.p`
      }
 `
 export const Imgbox = styled.div`
+     width: ${fullWidth};
 //    img{ 
-//       max-width:100%;
+//       max-width: ${fullWidth};
 //    } 
+`
+export const ImgWrap = styled.div`
 `
 export const SubHeading = styled.p`
     font-family: 'Roboto';
@@ -69,12 +74,12 @@ export const SubHeading = styled.p`
     margin-bottom: ${space[10]}px;
 `
 export const SavingWrap= styled.div`
-   width:100%;
+   width: ${fullWidth};
    background: ${colors.white};
 `
 export const Wrap= styled.div`
-   width:100%;
-   padding:${space[10] * 2}px;
+   width: ${fullWidth};
+   padding:${space[10] * 3}px;
    display: flex;
    align-items:center;
    justify-content:center;

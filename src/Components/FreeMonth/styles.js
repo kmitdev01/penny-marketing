@@ -9,6 +9,7 @@ export const Wrapper = styled.div`
 export const Imgbox = styled.div`
    img{ 
       max-width:100%;
+      margin-right:79px;
    } 
 `
 export const Heading = styled.h6`

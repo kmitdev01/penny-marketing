@@ -1,7 +1,7 @@
 import React from "react";
 import {
    Button
-} from './style';
+} from './styles';
 const SecondaryButton = ({ title, style, onClick, disabled }) => {
   return (
     <Button

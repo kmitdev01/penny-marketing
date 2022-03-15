@@ -13,7 +13,9 @@ import {
     BottomWrap,
     SubHeading,
     SavingWrap,
-    Wrap
+    Wrap,
+    Border,
+    ImgWrap
 } from './style';
 const PennyProfit = () => {
     return (
@@ -24,6 +26,7 @@ const PennyProfit = () => {
                     <Section>
                         <ContentWrap>
                             <Heading>Saving The <br></br>Smart Way</Heading>
+                            <Border></Border>
                             <Text>
                                 Remember saving your spare change in a Jar at home? Well, PennyProfit
                                 allows you to save all of your spare change from every purchase in
@@ -40,9 +43,9 @@ const PennyProfit = () => {
                         </Imgbox>
                     </Section>
                     <BottomWrap>
-                        <Imgbox>
+                        <ImgWrap>
                             <img src="./static/images/emptyjar.svg" alt="jar" />
-                        </Imgbox>
+                        </ImgWrap>
                         <ContentWrap>
                             <SubHeading>
                                 Save all of your spare change in one Jar or split that spare change to go into different Jars -- all

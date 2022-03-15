@@ -1,5 +1,5 @@
 import React from 'react';
-// import SecondaryButton from 'Components/buttons/component/SecondaryButton/secondaryBtn';
+import SecondaryButton from '../buttons/component/SecondaryButton/secondaryBtn/secondaryBtn';
 import {
     Wrapper,
     Imgbox,
@@ -14,12 +14,12 @@ const FreeMonth = () => {
                 <img src="./static/images/pig.svg" alt="pig" />
             </Imgbox>
             <div>
-                <Heading>Saving The <br></br>Smart Way</Heading>
+                <Heading>Don't Have <br></br>PennyProfit?</Heading>
                 <Text>
                     Get Started Now And Begin Saving
                 </Text>
                 <TrialText>Try It Free For 1 Month!</TrialText>
-                {/* <SecondaryButton/> */}
+                <SecondaryButton title={'Get Started'} style={{width:'201px'}}/>
             </div>
         </Wrapper>
     );
